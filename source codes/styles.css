@@ -170,6 +170,9 @@ color:var(--color-violet-300);
 
  /* ----------SCREEN WITH MIN-WIDTH OF 1024PX---------- */
  @media screen and (min-width:1024px){
+  .ticketing-panel{
+    margin:7rem auto;
+  }
   .ticketing-panel__items{ 
     grid-template-columns:1fr 1fr 1fr;
   }
