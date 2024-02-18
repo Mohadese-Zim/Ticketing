@@ -9,9 +9,7 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-  
 }
-
 
 /* ----------VARIABLES---------- */
 :root{
@@ -44,26 +42,25 @@ html{
 
 /* ----------BODY STYLES---------- */
 body{
-  
   font-family: Vazirmatn;
   background: linear-gradient(to bottom left,var(--color-emberald-300),10%,var(--color-violet-200)) ;
   background-repeat: no-repeat;
-    background-attachment: fixed;
+  background-attachment: fixed;
 }
 
 
 /* ----------TICKETING-PANEL STYLES---------- */
 .ticketing-panel{
   width:calc(100vw - 5rem);
-  max-width: 130rem;
+  max-width: 110rem;
   border-radius: var(--border-radius-20);
   box-shadow:0 0 10px 1.5px var(--color-indigo-100);
-  padding:3rem;
-  margin:5rem auto;
+  padding:2rem;
+  margin:3rem auto;
   background-color: var(--color-indigo-50);
 }
 .ticketing-panel__title{
-  margin-bottom: 3rem ;
+  margin-bottom: 2rem ;
   font-size: 1.6rem;
   font-weight: var(--font-weight-extra-bold);
   text-align: center;
@@ -77,9 +74,9 @@ body{
 
 /* ----------CARD STYLES---------- */
 .card{
-  padding: 1.5rem;
+  padding: 1rem;
   font-weight: var(--font-weight-normal);
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   box-shadow:0 0 8px 1.5px var(--color-indigo-200);
   border-radius: var(--border-radius-8);
   display: grid;
@@ -90,7 +87,7 @@ body{
   background-color: var(--color-slate-50);
 }
 .light-text{
-font-size:1.3rem;
+font-size:1.1rem;
 font-weight: var(--font-weight-light);
 color:var(--color-violet-300);
 }
@@ -113,7 +110,7 @@ color:var(--color-violet-300);
   transition: all 0.6s;
 }
 .card__upload:hover{
-  font-size:1.65rem;
+  font-size:1.35rem;
   text-shadow: 0 0 5px var(--color-emberald-300);
 }
 .card__user-info{
@@ -131,7 +128,6 @@ color:var(--color-violet-300);
 }
 .card__btn{
   font-family: Vazirmatn;
-  font-size: 1.7rem;
   font-weight: var(--font-weight-bold);
   height: 6rem;
   border-radius: var(--border-radius-8);
@@ -164,7 +160,7 @@ color:var(--color-violet-300);
  @media screen and (min-width:683px) {
   .ticketing-panel__title{
   text-align: right;
-  font-size: 2rem;
+  font-size: 1.8rem;
   }
   .ticketing-panel__items{ 
     grid-template-columns:1fr 1fr;
@@ -173,8 +169,7 @@ color:var(--color-violet-300);
 
 
  /* ----------SCREEN WITH MIN-WIDTH OF 1024PX---------- */
- @media screen and (min-width:1024px) {
-  
+ @media screen and (min-width:1024px){
   .ticketing-panel__items{ 
     grid-template-columns:1fr 1fr 1fr;
   }
